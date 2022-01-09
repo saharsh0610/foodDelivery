@@ -1,0 +1,182 @@
+
+.center{
+    text-align: center;
+    margin-top: 130px;
+}
+.primary{
+    font-family: 'Bitter', serif;
+    font-size: 3.6rem;
+
+}
+.navbar{
+   position: sticky;
+
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 176%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+
+}
+.navbar .pic{
+    width: 75px;
+    height: 71px;
+    margin-left: 34px;
+    padding: 2px 2px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -48px;
+    margin-left: -584px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 23px 23px;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-radius: 23px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+
+}
+.home::before{
+    content: "";
+    background: url("img.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+.home .primary{
+    padding-top: 33px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.home p{
+    padding: 23px 23px;
+    margin: 24px 274px;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+
+    border-radius: 23px;
+ 
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(7, 6, 4);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.services{
+    display: flex;
+    margin: 84px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+
+}
+.services h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+    border: 2px solid red;
+    margin: 23px 23px;
+    border-radius: 23px;
+    background-color: blanchedalmond;
+}
+.food{
+    padding: 23px 23px;
+}
+.catering{
+    padding: 23px 23px;
+}
+.delivery{
+    padding: 23px 23px;
+}
+.food img {
+    width: 154px;
+    height: 145px;
+    display: block;
+    margin: auto;
+    border: rgb(238, 255, 0);
+}
+.catering img {
+    width: 154px;
+    height: 145px;
+    display: block;
+    margin: auto;
+}
+.delivery img {
+    width: 154px;
+    height: 145px;
+    display: block;
+    margin: auto;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("img3.jpg") no-repeat center center/cover;
+}
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.contact .formg{
+    padding: 23px 23px;
+}
+.contact input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+footer{
+    position: relative;
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 9px 20px;
+    /* height: 33px; */
+}
